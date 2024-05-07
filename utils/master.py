@@ -19,9 +19,10 @@ class Master:
         # room map
         self.roomMap = {
             '1':'自习室',
-            '2':'教师休息室',
+            '2':'生活区',
             '3':'阅览室',
             '4':'讨论室'
+            '5':'教师休息室'
         }
         self.rooms = None
         self.seats_query_flag = False
